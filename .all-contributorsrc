@@ -9,6 +9,18 @@
   "imageSize": 50,
   "commit": true,
   "commitConvention": "angular",
-  "contributors": [],
+  "contributors": [
+    {
+      "login": "gemmadlou",
+      "name": "Gemma Black",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4562670?v=4",
+      "profile": "https://kammdata.com",
+      "contributions": [
+        "doc",
+        "test",
+        "code"
+      ]
+    }
+  ],
   "contributorsPerLine": 7
 }
