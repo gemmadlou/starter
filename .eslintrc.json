@@ -1,0 +1,52 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true
+  },
+  "extends": "eslint:recommended",
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly",
+    "process": true,
+    "__dirname": true,
+    "expect": true,
+    "describe": true,
+    "beforeEach": true,
+    "test": true,
+    "afterEach": true,
+    "it": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018
+  },
+  "rules": {
+    "no-console": [
+      "error",
+      {
+        "allow": ["info", "warn", "error"]
+      }
+    ],
+    "no-unused-vars": [
+      "error",
+      {
+        "argsIgnorePattern": "next"
+      }
+    ],
+    "complexity": ["error", 50],
+    "max-depth": ["error", 4],
+    "no-else-return": 2,
+    "require-jsdoc": [
+      "error",
+      {
+        "require": {
+          "FunctionDeclaration": true,
+          "MethodDefinition": true,
+          "ClassDeclaration": false,
+          "ArrowFunctionExpression": true,
+          "FunctionExpression": false
+        }
+      }
+    ]
+  }
+}

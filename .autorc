@@ -1,0 +1,11 @@
+{
+  "plugins": [
+    "git-tag",
+    "all-contributors",
+    "conventional-commits"
+  ],
+  "owner": "gemmadlou",
+  "repo": "starter",
+  "name": "Gemma",
+  "email": "gblackuk@googlemail.com"
+}
